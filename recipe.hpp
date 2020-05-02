@@ -8,6 +8,8 @@ class Recipe
 public:
     Recipe();
     explicit Recipe(std::vector<std::string> ingredientList);
+    Recipe(int prepTime, std::string recipeName);
+
     class Ingredient {
     public:
         explicit Ingredient(std::string recipeName);

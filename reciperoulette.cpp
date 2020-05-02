@@ -5,15 +5,15 @@ RecipeRoulette::RecipeRoulette()
 
 }
 
-Recipe RecipeRoulette::pickARandomRecipe() {
-    std::vector<Recipe>::iterator it;
-    for(it = )
-}
+//Recipe RecipeRoulette::pickARandomRecipe() {
+//    std::vector<Recipe>::iterator it;
+//    for(it = )
+//}
 
-bool RecipeRoulette::areAnyRecipesComplete() {
-    return false;
-}
+//bool RecipeRoulette::areAnyRecipesComplete() {
+//    return false;
+//}
 
-void RecipeRoulette::filterRecipes(Recipe::Ingredient ingredient) {
+//void RecipeRoulette::filterRecipes(Recipe::Ingredient ingredient) {
 
-}
+//}
