@@ -9,6 +9,11 @@ Recipe::Recipe():
     //Nothing here
 }
 
+Recipe::Recipe(int prepTime, std::string recipeName) {
+setPrepTime(prepTime);
+setRecipeName(recipeName);
+}
+
  int Recipe::getPrepTime() {
     return prepTime;
 }
